@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Prompt', sans-serif;
+    background-color: cadetblue;
+}
+.container{
+    max-width: 1200px;
+    background-color: darkolivegreen;
+    margin: 20px auto;
+    padding: 20px;
+    border: 2px solid white;
+}
+.profile-image{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: 1px solid black;
+    float: left;
+    margin: 10px;
+}
+.header-bio{
+    float: left;
+    padding: 30px;
+}
+h1, h3{
+    color:black;
+}
+.header-contact{
+    float: left;
+    padding: 35px;
+}
+
+.header-contact a{
+    text-decoration: none;
+    padding: 0px;
+    color: black;
+}
+
+.header-contact a:hover{
+    color: white;
+
+}
+.div-clear{
+    clear: both;
+}
+
+hr{
+    border: 1px solid white;
+    margin: 20px 0;
+}
+
+/*Personal Section*/
+
+.left-div{
+    width: 30%;
+    float: left;
+}
+.right-div{
+    width: 70%;
+    float: left;
+}
+.foot{
+    text-align: center;
+    margin: 20px;
+}
+.footer{
+    padding: 5px;
+    margin: 5px;
+    text-decoration: none;
+    text-align: center;
+    background-color: darkslateblue;
+    color: black;
+    border: 1px solid black;
+}
+.footer:hover{
+    color: white;
+}
+.develop{
+    text-decoration: none;
+    color: yellowgreen;
+}
+.lastfoot{
+    text-align: center;
+    padding: 20px;
+}
+.lastfoot a:hover{
+    color: yellow;
+}
+input{
+    width:100%;
+    height: 30px;
+}
+textarea{
+    width: 97%;
+    padding: 10px;
+}
+button{
+    background-color: skyblue;
+    padding: 10px 20px;
+    border: 1px solid;
+}
+button:hover{
+    background-color: whitesmoke;
+}
+.last{
+    margin-left: 68%;
+}
+#last{
+    text-decoration: none;
+    color: yellowgreen;
+}
+#last:hover{
+    color: yellow;
+}
